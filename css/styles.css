@@ -3,9 +3,11 @@ img {
   width: 240px;
   height: 240px;
 }
+
 hr.new {
-  border-top: 3px dashed #066163;
+  border-top: 3px dashed #143F6B;
 }
+
 .hr {
   background-color: #EAF6F6;
   border-style: dotted none none none;
@@ -15,24 +17,49 @@ hr.new {
 }
 
 table {
-padding-left: 50px;
-
+  padding-left: 0px;
 }
 
 body {
   background-color: #EAF6F6;
 }
+
 .contact-body {
   background-image: url('../images/contact.jpg');
   background-attachment: fixed;
 }
 
+input[type=text]:focus, input[type=email]:focus, input[type=date]:focus {
+  background-color: lightblue;
+}
+
+input[type=text], input[type=email], input[type=date], textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #066163;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #066163;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
 h1 {
   color: #066163;
 }
+
 h2 {
   color: #066163;
-
 }
 
 .footer {
@@ -40,7 +67,7 @@ h2 {
   left: 0;
   top: 2700px;
   width: 100%;
-  background-color: #066163;
+  background-color: #143F6B;
   text-align: center;
   color: white;
   height: 240px;
@@ -51,14 +78,14 @@ h2 {
   left: 0;
   top: 1200px;
   width: 100%;
-  background-color: #066163;
+  background-color: #143F6B;
   text-align: center;
   color: white;
   height: 240px;
 }
 
 .btn {
-  background-color: #066163;
+  background-color: #143F6B;
   border-radius: 8px;
   border-style: none;
   color: #FFFFFF;
@@ -83,7 +110,7 @@ h2 {
 }
 
 .btn:hover {
-  background-color: #F082AC;
+  background-color: #A0855B;
 }
 
 .container {
@@ -91,13 +118,13 @@ h2 {
   opacity: 1;
 }
 
-.contact-card{
+.contact-card {
   position: absolute;
   top: 300px;
   left: 470px;
   opacity: 0.9;
   background-color: #F2F2F2;
-  height: 720px;
+  height: 820px;
   width: 640px;
   border-radius: 10px;
 }
@@ -111,12 +138,13 @@ h2 {
 .footer-text {
   position: absolute;
   top: 200px;
-  left:750px;
+  left: 750px;
 }
 
 th, td {
   padding: 10px;
 }
+
 .copyright {
   width: 20px;
   height: 20px;
